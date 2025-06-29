@@ -19,7 +19,7 @@ export default function Navbar() {
   ]
 
   return (
-    <nav className="w-full  backdrop-blur-md sticky top-0 bg-white z-50">
+    <nav className="w-full  backdrop-blur-md sticky top-0 bg-white ">
       <div className=" px-4 sm:px-6 lg:px-10">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
