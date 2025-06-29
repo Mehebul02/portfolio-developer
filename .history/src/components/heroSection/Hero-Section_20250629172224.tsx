@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Phone } from "lucide-react"
+import { Phone, Instagram, Globe } from "lucide-react"
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa"
 
 export default function HeroSection() {

@@ -7,7 +7,7 @@ import { Space_Grotesk } from "next/font/google";
 const grotesque = Space_Grotesk({
   subsets: ["latin"],
   weight: ["400", "500", "700"], // adjust as needed
-  
+  variable: "--font-grotesque",
 });
 
 
@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${grotesque.className} antialiased`}
+        className={` antialiased`}
       >
         <Navbar/>
         {children}

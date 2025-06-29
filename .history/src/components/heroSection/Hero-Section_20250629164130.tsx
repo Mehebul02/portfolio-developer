@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
-import { Phone } from "lucide-react"
-import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa"
+import { Phone, Instagram, Globe } from "lucide-react"
+import Link from "next/link"
 
 export default function HeroSection() {
     return (
@@ -30,25 +30,17 @@ export default function HeroSection() {
                 </div>
                 <div className="flex flex-col lg:flex-row items-center space-x-48  mt-12">
                     {/* Left Side - Social Icons */}
-                    <div className="hidden lg:flex flex-row gap-6 items-start space-y-6 mt-12">
-                       
-                         <div className="hidden lg:flex flex-row gap-6 items-start space-y-6 mt-12">
-                         <div
+                    <div className="hidden lg:flex flex-col items-start space-y-6 mt-12">
+                        <div className="flex flex-col items-center space-y-4">
+                            <Instagram className="w-6 h-6 text-black" />
+                            <Globe className="w-6 h-6 text-black" />
+                        </div>
+                        <div
                             className="writing-mode-vertical text-sm text-gray-700 rotate-180"
                             style={{ writingMode: "vertical-rl" }}
                         >
                             @williamrey
                         </div>
-                        <div className="flex flex-col items-center space-y-4">
-                            <FaTwitter className="w-6 h-6 text-black" />
-                            <FaInstagram className="w-6 h-6 text-black" />
-                            <FaFacebook className="w-6 h-6 text-black" />
-
-                            <div className="border-l-3 border-[#000000] h-24"></div>
-
-                            </div>
-                        </div>
-                       
                     </div>
 
                     <div className="mb-12 max-w-2xl">
@@ -58,7 +50,7 @@ export default function HeroSection() {
                             Your trusted partner for strategy, design, and dev.
                         </p>
                         {/* CTA Button */}
-                        <Button className="bg-transparent border-2 border-black text-black hover:bg-black mt-6 hover:text-white transition-colors rounded-full px-8 py-6 text-lg">
+                        <Button className="bg-transparent border-2 border-black text-black hover:bg-black mt- hover:text-white transition-colors rounded-full px-8 py-6 text-lg">
                             <Phone className="w-5 h-5 mr-3" />
                             Schedule a Call
                         </Button>

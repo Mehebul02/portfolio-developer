@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${grotesque.className} antialiased`}
+        className={`${g} antialiased`}
       >
         <Navbar/>
         {children}

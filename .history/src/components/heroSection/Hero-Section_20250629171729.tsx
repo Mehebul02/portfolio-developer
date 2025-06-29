@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Phone } from "lucide-react"
-import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa"
+import { Phone, Instagram, Globe } from "lucide-react"
 
 export default function HeroSection() {
     return (
@@ -23,7 +22,6 @@ export default function HeroSection() {
                         <h1 className="text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight text-black">
                             Your Website <span className="bg-black text-white px-4 py-2 rounded-2xl inline-block">Develop.</span>
                         </h1>
-                    </div>
 
                     {/* bottom  */}
 
@@ -31,8 +29,6 @@ export default function HeroSection() {
                 <div className="flex flex-col lg:flex-row items-center space-x-48  mt-12">
                     {/* Left Side - Social Icons */}
                     <div className="hidden lg:flex flex-row gap-6 items-start space-y-6 mt-12">
-                       
-                         <div className="hidden lg:flex flex-row gap-6 items-start space-y-6 mt-12">
                          <div
                             className="writing-mode-vertical text-sm text-gray-700 rotate-180"
                             style={{ writingMode: "vertical-rl" }}
@@ -40,11 +36,10 @@ export default function HeroSection() {
                             @williamrey
                         </div>
                         <div className="flex flex-col items-center space-y-4">
-                            <FaTwitter className="w-6 h-6 text-black" />
-                            <FaInstagram className="w-6 h-6 text-black" />
-                            <FaFacebook className="w-6 h-6 text-black" />
+                            <Instagram className="w-6 h-6 text-black" />
+                            <Globe className="w-6 h-6 text-black" />
 
-                            <div className="border-l-3 border-[#000000] h-24"></div>
+                            <div className="border-l-2 border-gray-300 h-24"></div>
 
                             </div>
                         </div>

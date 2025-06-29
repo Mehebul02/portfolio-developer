@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button"
-import { Phone } from "lucide-react"
-import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa"
+import { Phone, Instagram, Globe } from "lucide-react"
+import { FaFacebook, FaInstagram } from "react-icons/fa"
+import { FaX } from "react-icons/fa6"
 
 export default function HeroSection() {
     return (
@@ -40,7 +41,7 @@ export default function HeroSection() {
                             @williamrey
                         </div>
                         <div className="flex flex-col items-center space-y-4">
-                            <FaTwitter className="w-6 h-6 text-black" />
+                            <Fa className="w-6 h-6 text-black" />
                             <FaInstagram className="w-6 h-6 text-black" />
                             <FaFacebook className="w-6 h-6 text-black" />
 
