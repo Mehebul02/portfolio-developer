@@ -43,6 +43,8 @@ export default function HeroSection() {
                                     <FaTwitter className="w-6 h-6 text-black cursor-pointer" />
                                 </Link>
                                 <Link href='#'>
+
+
                                     <FaInstagram className="w-6 h-6 text-black cursor-pointer" />
                                 </Link>
                                 <Link href='#'>

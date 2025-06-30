@@ -91,7 +91,7 @@ export default function SkillSection() {
             <Button
               variant="outline"
               size="icon"
-              className="w-12 cursor-pointer h-12 rounded-full border-white/20 bg-transparent hover:bg-white/10 hover:text-amber-50 text-white transition-all duration-200"
+              className="w-12 cursor-pointer h-12 rounded-full border-white/20 bg-transparent hover:bg-white/10 text-white transition-all duration-200"
               onClick={prevSlide}
             >
               <ChevronLeft className="w-5 h-5" />
@@ -99,7 +99,7 @@ export default function SkillSection() {
             <Button
               variant="outline"
               size="icon"
-              className="w-12 h-12 cursor-pointer rounded-full border-white/20 bg-transparent hover:bg-white/10 hover:text-amber-50 text-white transition-all duration-200"
+              className="w-12 h-12 cursor-pointer rounded-full border-white/20 bg-transparent hover:bg-white/10 hover: text-white transition-all duration-200"
               onClick={nextSlide}
             >
               <ChevronRight className="w-5 h-5" />

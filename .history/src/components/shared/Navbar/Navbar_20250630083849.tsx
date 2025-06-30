@@ -54,7 +54,7 @@ export default function Navbar() {
           <div className="hidden md:block">
             <Button
             variant="outline"
-            className="rounded-full cursor-pointer border-2 border-black bg-transparent hover:bg-black hover:text-white transition-colors px-6"
+            className="rounded-full border-2 border-black bg-transparent hover:bg-black hover:text-white transition-colors px-6"
           >
             <span className="mr-2">→</span>
             Start Project
@@ -100,7 +100,7 @@ export default function Navbar() {
                   {/* Mobile CTA Button */}
                   <div className="pt-6">
                     <Button
-                      className="w-full bg-gray-900 hover:bg-gray-800 cursor-pointer text-white px-6 py-3 rounded-full flex items-center justify-center gap-2 transition-all duration-200"
+                      className="w-full bg-gray-900 hover:bg-gray-800 cur text-white px-6 py-3 rounded-full flex items-center justify-center gap-2 transition-all duration-200"
                       onClick={() => setIsOpen(false)}
                     >
                       Start Project

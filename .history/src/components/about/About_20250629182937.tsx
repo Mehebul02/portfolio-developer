@@ -1,7 +1,4 @@
-import { Star } from "lucide-react"
-import { Button } from "@/components/ui/button"
 
-export default function Component() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-lime-300 via-lime-200 to-white relative overflow-hidden">
       {/* Navigation */}
@@ -12,7 +9,7 @@ export default function Component() {
             size="icon"
             className="rounded-full border border-black/10 bg-white/30 backdrop-blur-md hover:bg-white/50 hover:border-black/20 transition-all duration-300 shadow-sm hover:shadow-md"
           >
-            <Star className="h-4 w-4 text-black/70" />
+            <FaDownload className="h-4 w-4 text-black/70" />
           </Button>
           <Button
             variant="outline"

@@ -30,31 +30,31 @@ export default function HeroSection() {
                 <div className="flex flex-col lg:flex-row items-center space-x-48  mt-12">
                     {/* Left Side - Social Icons */}
                     <div className="hidden lg:flex flex-row gap-6 items-start space-y-6 mt-12">
-
-                        <div className="hidden lg:flex flex-row gap-6 items-start space-y-6 mt-12">
-                            <div
-                                className="writing-mode-vertical text-sm text-gray-700 rotate-180"
-                                style={{ writingMode: "vertical-rl" }}
-                            >
-                                @williamrey
-                            </div>
-                            <div className="flex flex-col items-center space-y-4">
-                                <Link href='#'>
-                                    <FaTwitter className="w-6 h-6 text-black cursor-pointer" />
-                                </Link>
-                                <Link href='#'>
-                                    <FaInstagram className="w-6 h-6 text-black cursor-pointer" />
-                                </Link>
-                                <Link href='#'>
-                                    <FaFacebook className="w-6 h-6 text-black cursor-pointer" />
-
-                                </Link>
-
-                                <div className="border-l-3 border-[#000000] h-24"></div>
+                       
+                         <div className="hidden lg:flex flex-row gap-6 items-start space-y-6 mt-12">
+                         <div
+                            className="writing-mode-vertical text-sm text-gray-700 rotate-180"
+                            style={{ writingMode: "vertical-rl" }}
+                        >
+                            @williamrey
+                        </div>
+                        <div className="flex flex-col items-center space-y-4">
+                            <Link href='#'>
+                            <FaTwitter className="w-6 h-6 text-black cursor-pointer" />
+                            </Link>
+                            <Link href='#'>
+                            
+                         
+                            <FaInstagram className="w-6 h-6 text-black cursor-pointer" />
+                               </Link>
+                               <Link href='#'>
+                               </Link>
+                          
+                            <div className="border-l-3 border-[#000000] h-24"></div>
 
                             </div>
                         </div>
-
+                       
                     </div>
 
                     <div className="mb-12 max-w-2xl">

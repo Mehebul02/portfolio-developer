@@ -20,7 +20,7 @@ export default function About() {
           <Button className="w-9 h-9 rounded-full cursor-pointer border border-gray-400 bg-white flex items-center justify-center">
             <FaDownload className="h-3.5 w-3.5 text-black fill-black" />
           </Button>
-          <button className="px-5 cursor-pointer py-2 rounded-full border border-gray-400 bg-white text-black text-sm font-medium">
+          <button className="px-5 py-2 rounded-full border border-gray-400 bg-white text-black text-sm font-medium">
             About
           </button>
         </div>

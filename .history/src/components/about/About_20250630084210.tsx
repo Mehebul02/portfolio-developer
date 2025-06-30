@@ -1,7 +1,5 @@
-
-import { Button } from "../ui/button"
+import { Star } from "lucide-react"
 import Worked from "./Worked-Section"
-import { FaDownload } from "react-icons/fa"
 
 export default function About() {
   return (
@@ -17,10 +15,10 @@ export default function About() {
       {/* Navigation */}
       <nav className="flex justify-end items-center pt-6 pr-8">
         <div className="flex items-center gap-2">
-          <Button className="w-9 h-9 rounded-full cursor-pointer border border-gray-400 bg-white flex items-center justify-center">
-            <FaDownload className="h-3.5 w-3.5 text-black fill-black" />
-          </Button>
-          <button className="px-5 cursor-pointer py-2 rounded-full border border-gray-400 bg-white text-black text-sm font-medium">
+          <button className="w-9 h-9 rounded-full border border-gray-400 bg-white flex items-center justify-center">
+             className="h-3.5 w-3.5 text-black fill-black" />
+          </button>
+          <button className="px-5 py-2 rounded-full border border-gray-400 bg-white text-black text-sm font-medium">
             About
           </button>
         </div>

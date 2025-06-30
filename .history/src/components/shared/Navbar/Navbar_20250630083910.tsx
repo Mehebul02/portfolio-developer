@@ -54,7 +54,7 @@ export default function Navbar() {
           <div className="hidden md:block">
             <Button
             variant="outline"
-            className="rounded-full cursor-pointer border-2 border-black bg-transparent hover:bg-black hover:text-white transition-colors px-6"
+            className="rounded-full curs-po border-2 border-black bg-transparent hover:bg-black hover:text-white transition-colors px-6"
           >
             <span className="mr-2">→</span>
             Start Project
